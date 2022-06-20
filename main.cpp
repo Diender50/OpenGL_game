@@ -18,6 +18,7 @@ LightRenderer* light;
 MeshRenderer* sphere;
 MeshRenderer* ground;
 
+
 GLuint flatShaderProgram;
 GLuint texturedShaderProgram;
 
