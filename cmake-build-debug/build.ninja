@@ -105,6 +105,14 @@ build CMakeFiles/OpenGL_game.dir/TextureLoader.cpp.obj: CXX_COMPILER__OpenGL_gam
   OBJECT_DIR = CMakeFiles\OpenGL_game.dir
   OBJECT_FILE_DIR = CMakeFiles\OpenGL_game.dir
 
+build CMakeFiles/OpenGL_game.dir/kionePhysics/Geometry3D.cpp.obj: CXX_COMPILER__OpenGL_game_Debug C$:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/kionePhysics/Geometry3D.cpp || cmake_object_order_depends_target_OpenGL_game
+  DEFINES = -DGLEW_STATIC
+  DEP_FILE = CMakeFiles\OpenGL_game.dir\kionePhysics\Geometry3D.cpp.obj.d
+  FLAGS = -g -Wall -std=gnu++11
+  INCLUDES = -IC:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game -IC:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug -IC:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/glfw/include -IC:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/glew/include -IC:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/glm/glm/.. -IC:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/reactphysics3d/include
+  OBJECT_DIR = CMakeFiles\OpenGL_game.dir
+  OBJECT_FILE_DIR = CMakeFiles\OpenGL_game.dir\kionePhysics
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target OpenGL_game
@@ -113,7 +121,7 @@ build CMakeFiles/OpenGL_game.dir/TextureLoader.cpp.obj: CXX_COMPILER__OpenGL_gam
 #############################################
 # Link the executable OpenGL_game.exe
 
-build OpenGL_game.exe: CXX_EXECUTABLE_LINKER__OpenGL_game_Debug CMakeFiles/OpenGL_game.dir/main.cpp.obj CMakeFiles/OpenGL_game.dir/Mesh.cpp.obj CMakeFiles/OpenGL_game.dir/Camera.cpp.obj CMakeFiles/OpenGL_game.dir/ShaderLoader.cpp.obj CMakeFiles/OpenGL_game.dir/LightRenderer.cpp.obj CMakeFiles/OpenGL_game.dir/MeshRenderer.cpp.obj CMakeFiles/OpenGL_game.dir/TextureLoader.cpp.obj | lib/libglfw3_Debug.a lib/libglewd.a lib/libreactphysics3d_Debug.a || lib/libglewd.a lib/libglfw3_Debug.a lib/libreactphysics3d_Debug.a
+build OpenGL_game.exe: CXX_EXECUTABLE_LINKER__OpenGL_game_Debug CMakeFiles/OpenGL_game.dir/main.cpp.obj CMakeFiles/OpenGL_game.dir/Mesh.cpp.obj CMakeFiles/OpenGL_game.dir/Camera.cpp.obj CMakeFiles/OpenGL_game.dir/ShaderLoader.cpp.obj CMakeFiles/OpenGL_game.dir/LightRenderer.cpp.obj CMakeFiles/OpenGL_game.dir/MeshRenderer.cpp.obj CMakeFiles/OpenGL_game.dir/TextureLoader.cpp.obj CMakeFiles/OpenGL_game.dir/kionePhysics/Geometry3D.cpp.obj | lib/libglfw3_Debug.a lib/libglewd.a lib/libreactphysics3d_Debug.a || lib/libglewd.a lib/libglfw3_Debug.a lib/libreactphysics3d_Debug.a
   FLAGS = -g
   LINK_LIBRARIES = lib/libglfw3_Debug.a  lib/libglewd.a  lib/libreactphysics3d_Debug.a  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OpenGL_game.dir

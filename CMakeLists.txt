@@ -4,7 +4,7 @@ project (OpenGL_game)
 
 
 # The main executable
-add_executable(OpenGL_game main.cpp Mesh.cpp Mesh.hpp Camera.cpp Camera.hpp ShaderLoader.cpp ShaderLoader.hpp LightRenderer.cpp LightRenderer.hpp MeshRenderer.cpp MeshRenderer.hpp TextureLoader.cpp TextureLoader.hpp)
+add_executable(OpenGL_game main.cpp Mesh.cpp Mesh.hpp Camera.cpp Camera.hpp ShaderLoader.cpp ShaderLoader.hpp LightRenderer.cpp LightRenderer.hpp MeshRenderer.cpp MeshRenderer.hpp TextureLoader.cpp TextureLoader.hpp kionePhysics/Geometry3D.cpp kionePhysics/Geometry3D.hpp)
 
 
 set_property(TARGET OpenGL_game PROPERTY CXX_STANDARD 11)
