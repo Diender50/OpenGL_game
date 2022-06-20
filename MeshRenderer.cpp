@@ -4,11 +4,8 @@
 
 #include "MeshRenderer.hpp"
 
-MeshRenderer::MeshRenderer(MeshType modelType, std::string _name, Camera *camera, rp3d::RigidBody* rigidBody, rp3d::PhysicsWorld* world) {
-    m_world = world;
+MeshRenderer::MeshRenderer(MeshType modelType, std::string _name, Camera *camera) {
     name = _name;
-
-    m_rigidBody = rigidBody;
     m_camera = camera;
 
     m_scale = glm::vec3(1.0f,1.0f,1.0f);
@@ -51,28 +48,11 @@ MeshRenderer::MeshRenderer(MeshType modelType, std::string _name, Camera *camera
 }
 void MeshRenderer::draw() {
 
-//    m_modelMatrix = glm::mat4(1.0f);
-      rp3d::Transform currTransform = m_rigidBody->getTransform();
-
-//    rp3d::Quaternion rotation = currTransform.getOrientation();
-//    rp3d::Vector3 translate = currTransform.getPosition();
-//
-//    rp3d::decimal angle;
-//    rp3d::Vector3 axis;
-//
-//    rotation.getRotationAngleAxis(angle,axis);
-//
-//    glm::mat4 RotationMatrix = glm::rotate(glm::mat4(1.0f),angle,glm::vec3(axis.x,axis.y,axis.z));
-//    glm::mat4 TranslationMatrix = glm::translate(glm::mat4(1.0f),glm::vec3(translate.x, translate.y, translate.z));
-//
+    glm::mat4 TranslationMatrix = glm::translate(glm::mat4(1.0f), m_position);
     glm::mat4 scaleMatrix = glm::scale(glm::mat4(1.0f),m_scale);
-//
-//    m_modelMatrix = TranslationMatrix*RotationMatrix*scaleMatrix;
+    m_modelMatrix = glm::mat4(1.0f);
+    m_modelMatrix = TranslationMatrix*scaleMatrix;
 
-    float matrix[16];
-    currTransform.getOpenGLMatrix(matrix);
-
-    m_modelMatrix = glm::make_mat4(matrix) * scaleMatrix;
 
     glm::mat4 vp = m_camera->getProjectionMatrix() * m_camera->getViewMatrix();
 
@@ -92,25 +72,12 @@ void MeshRenderer::draw() {
 }
 
 MeshRenderer::~MeshRenderer() {
-    m_world->destroyRigidBody(m_rigidBody);
 }
 
 void MeshRenderer::setTexture(GLuint textureID) {m_texture = textureID;}
 
 void MeshRenderer::setScale(glm::vec3 scale) {m_scale = scale;}
 
-void MeshRenderer::setTransform(rp3d::Transform transform) {
-    m_rigidBody->setTransform(transform);
-}
 
 void MeshRenderer::setProgram(GLuint program) {m_program = program;}
 
-glm::vec3 MeshRenderer::getPosition() {
-    rp3d::Transform currTransform = m_rigidBody->getTransform();
-    rp3d::Vector3 position = currTransform.getPosition();
-    return glm::vec3(position.x,position.y,position.z);
-}
-
-rp3d::RigidBody* MeshRenderer::getRigidBody() {
-    return m_rigidBody;
-}

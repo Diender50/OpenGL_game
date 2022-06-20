@@ -319,3 +319,13 @@
 1054	1730	6774543191948082	OpenGL_game.exe	c71208636581716
 8	948	6774543696744861	CMakeFiles/OpenGL_game.dir/main.cpp.obj	3f6d6abd771839a8
 948	1615	6774543703324444	OpenGL_game.exe	c71208636581716
+7	1149	6774563608810699	CMakeFiles/OpenGL_game.dir/main.cpp.obj	3f6d6abd771839a8
+20	1181	6774563609121176	CMakeFiles/OpenGL_game.dir/LightRenderer.cpp.obj	467a7736e1562316
+7	973	6774563844023783	CMakeFiles/OpenGL_game.dir/Camera.cpp.obj	dbded19e4dbeb3f5
+10	981	6774564372761384	CMakeFiles/OpenGL_game.dir/MeshRenderer.cpp.obj	49adac1ab88b4b34
+981	1681	6774564379663704	OpenGL_game.exe	c71208636581716
+16	1039	6774565496177454	CMakeFiles/OpenGL_game.dir/Camera.cpp.obj	dbded19e4dbeb3f5
+8	1072	6774565496524766	CMakeFiles/OpenGL_game.dir/main.cpp.obj	3f6d6abd771839a8
+18	1092	6774565496714200	CMakeFiles/OpenGL_game.dir/LightRenderer.cpp.obj	467a7736e1562316
+20	1110	6774565496907954	CMakeFiles/OpenGL_game.dir/MeshRenderer.cpp.obj	49adac1ab88b4b34
+1110	1798	6774565503696991	OpenGL_game.exe	c71208636581716

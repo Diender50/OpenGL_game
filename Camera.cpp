@@ -4,8 +4,8 @@
 
 #include "Camera.hpp"
 #include <iostream>
-Camera::Camera(GLfloat FOV, GLfloat width, GLfloat height, GLfloat nearPlane, GLfloat farPlane, glm::vec3 camPos, rp3d::RigidBody* rigidBody) {
-    m_rigidBody = rigidBody;
+Camera::Camera(GLfloat FOV, GLfloat width, GLfloat height, GLfloat nearPlane, GLfloat farPlane, glm::vec3 camPos) {
+    m_position = camPos;
     m_cameraFront = glm::vec3(0.0f,0.0f,-1.0f);
     m_cameraUp = glm::vec3(0.0f,1.0f,0.0f);
     m_worldUp = glm::vec3(0.0f,1.0f,0.0f);
@@ -16,16 +16,10 @@ Camera::Camera(GLfloat FOV, GLfloat width, GLfloat height, GLfloat nearPlane, GL
 Camera::~Camera() {}
 
 glm::mat4 Camera::getViewMatrix() {
-    glm::vec3 cameraPos = getCameraPosition();
-    return glm::lookAt(cameraPos, cameraPos + m_cameraFront, m_cameraUp);}
+    return glm::lookAt(m_position, m_position + m_cameraFront, m_cameraUp);}
 
 glm::mat4 Camera::getProjectionMatrix() {return m_projectionMatrix;}
 
-glm::vec3 Camera::getCameraPosition() {
-    rp3d::Transform currTransform = m_rigidBody->getTransform();
-    rp3d::Vector3 position = currTransform.getPosition();
-    return glm::vec3(position.x,position.y,position.z);
-}
 
 void Camera::updateCamera() {
     glm::vec3 front;
@@ -40,11 +34,6 @@ void Camera::updateCamera() {
 
 }
 void Camera::moveCamera(glm::vec3 translate) {
-    rp3d::Transform currTransform = m_rigidBody->getTransform();
-    rp3d::Vector3 position = currTransform.getPosition();
-    rp3d::Transform newTransform(rp3d::Vector3(translate.x,translate.y,translate.z)+position,rp3d::Quaternion::identity());
-    currTransform.setPosition(rp3d::Vector3(translate.x,translate.y,translate.z)+position);
-    m_rigidBody->setTransform(currTransform);
 }
 
 void Camera::processKeyboard(Camera_Movement direction, float deltaTime) {
@@ -77,4 +66,3 @@ void Camera::processMouse(float xoffset, float yoffset) {
     updateCamera();
 }
 
-rp3d::RigidBody* Camera::getRigidBody() {return m_rigidBody;}
