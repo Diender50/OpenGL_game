@@ -1,0 +1,8 @@
+"C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\roudn\OneDrive\Documents\Cpp_projects\OpenGL_game\lib\reactphysics3d\testbed -B C:\Users\roudn\OneDrive\Documents\Cpp_projects\OpenGL_game\lib\reactphysics3d\testbed\cmake-build-debug
+CMake Error at CMakeLists.txt:30 (message):
+  This is not a Git repository.  In order to build the testbed application,
+  you need to clone the ReactPhysics3D repository.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/reactphysics3d/testbed/cmake-build-debug/CMakeFiles/CMakeOutput.log".

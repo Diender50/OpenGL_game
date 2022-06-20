@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\App_PhysicsServer_SharedMemory_GUI.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\App_PhysicsServer_SharedMemory_GUI.dir/objects.a @CMakeFiles\App_PhysicsServer_SharedMemory_GUI.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\App_PhysicsServer_SharedMemory_GUI.dir/objects.a -Wl,--no-whole-archive -o App_PhysicsServer_SharedMemory_GUI.exe -Wl,--out-implib,libApp_PhysicsServer_SharedMemory_GUI.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\App_PhysicsServer_SharedMemory_GUI.dir\linklibs.rsp

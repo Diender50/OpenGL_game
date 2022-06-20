@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\App_TwoJoint.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\App_TwoJoint.dir/objects.a @CMakeFiles\App_TwoJoint.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\App_TwoJoint.dir/objects.a -Wl,--no-whole-archive -o App_TwoJoint.exe -Wl,--out-implib,libApp_TwoJoint.dll.a -Wl,--major-image-version,3,--minor-image-version,24 @CMakeFiles\App_TwoJoint.dir\linklibs.rsp

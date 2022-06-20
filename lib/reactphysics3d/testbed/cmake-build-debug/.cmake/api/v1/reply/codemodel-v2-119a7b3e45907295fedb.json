@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "extern/nanogui",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-extern.nanogui-Debug-2a617902dba8c4806e2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13..3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "extern/nanogui",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "extern/nanogui/ext/glfw",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-extern.nanogui.ext.glfw-Debug-d8c62326f9e9c4240e47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "extern/nanogui/ext/glfw"
+				},
+				{
+					"build" : "extern/nanogui/ext/glfw/src",
+					"jsonFile" : "directory-extern.nanogui.ext.glfw.src-Debug-5bf7bc84526b9ddcb7da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "extern/nanogui/ext/glfw/src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Testbed",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "nanogui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@bba3a83b749618aefd18",
+					"jsonFile" : "target-glfw-Debug-48e19975ea4695bb5a96.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw_objects::@bba3a83b749618aefd18",
+					"jsonFile" : "target-glfw_objects-Debug-e4a91deba3b77a593271.json",
+					"name" : "glfw_objects",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nanogui::@86cba278abbd83eeb649",
+					"jsonFile" : "target-nanogui-Debug-71369f11686a63288515.json",
+					"name" : "nanogui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testbed::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testbed-Debug-8c7222b095fdf4f9be6f.json",
+					"name" : "testbed",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/reactphysics3d/testbed/cmake-build-debug",
+		"source" : "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/reactphysics3d/testbed"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
