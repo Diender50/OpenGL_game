@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/reactphysics3d
+# Install script for directory: C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/lib/reactphysics3d
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/opengl-cmake-skeleton")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OpenGL_game")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/lib/libreactphysics3d_Debug.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/lib/reactphysics3d/libreactphysics3d.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/reactphysics3d/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/lib/reactphysics3d/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ReactPhysics3D/ReactPhysics3DConfig.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ReactPhysics3D/ReactPhysics3DConfig.cmake"
-         "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/lib/reactphysics3d/CMakeFiles/Export/lib/cmake/ReactPhysics3D/ReactPhysics3DConfig.cmake")
+         "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/lib/reactphysics3d/CMakeFiles/Export/lib/cmake/ReactPhysics3D/ReactPhysics3DConfig.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ReactPhysics3D/ReactPhysics3DConfig-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -58,13 +58,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ReactPhysics3D" TYPE FILE FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/lib/reactphysics3d/CMakeFiles/Export/lib/cmake/ReactPhysics3D/ReactPhysics3DConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ReactPhysics3D" TYPE FILE FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/lib/reactphysics3d/CMakeFiles/Export/lib/cmake/ReactPhysics3D/ReactPhysics3DConfig.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ReactPhysics3D" TYPE FILE FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/lib/reactphysics3d/CMakeFiles/Export/lib/cmake/ReactPhysics3D/ReactPhysics3DConfig-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ReactPhysics3D" TYPE FILE FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/lib/reactphysics3d/CMakeFiles/Export/lib/cmake/ReactPhysics3D/ReactPhysics3DConfig-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ReactPhysics3D" TYPE FILE FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/lib/reactphysics3d/ReactPhysics3DConfigVersion.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ReactPhysics3D" TYPE FILE FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/lib/reactphysics3d/ReactPhysics3DConfigVersion.cmake")
 endif()
 

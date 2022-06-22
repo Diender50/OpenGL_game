@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/glfw/src
+# Install script for directory: C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/lib/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/opengl-cmake-skeleton")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OpenGL_game")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/lib/libglfw3_Debug.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/lib/glfw/src/libglfw3.a")
 endif()
 

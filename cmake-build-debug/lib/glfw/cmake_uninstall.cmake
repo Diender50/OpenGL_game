@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/lib/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/lib/glfw/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/lib/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/lib/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/lib/glfw/install_manifest.txt" files)
+file(READ "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/lib/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

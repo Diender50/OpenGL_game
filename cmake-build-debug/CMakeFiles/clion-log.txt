@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\roudn\OneDrive\Documents\Cpp_projects\OpenGL_game -B C:\Users\roudn\OneDrive\Documents\Cpp_projects\OpenGL_game\cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\roudn\OneDrive\Documents\Cpp_projects\TowerDefense -B C:\Users\roudn\OneDrive\Documents\Cpp_projects\TowerDefense\cmake-build-debug
 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
 -- Using Win32 for window creation
 CMake Deprecation Warning at lib/glew/CMakeLists.txt:1 (CMAKE_MINIMUM_REQUIRED):
@@ -11,4 +11,4 @@ CMake Deprecation Warning at lib/glew/CMakeLists.txt:1 (CMAKE_MINIMUM_REQUIRED):
 
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug
+-- Build files have been written to: C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug

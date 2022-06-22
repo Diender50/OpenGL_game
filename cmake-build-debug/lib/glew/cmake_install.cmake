@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/glew
+# Install script for directory: C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/lib/glew
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/opengl-cmake-skeleton")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OpenGL_game")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,19 +38,19 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/lib/libglewd.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/lib/libglewd.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/lib/libglewmxd.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/lib/libglewmxd.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/lib/liblibglew_sharedd.dll.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/lib/liblibglew_sharedd.dll.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/bin/libglewd.dll")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/bin/libglewd.dll")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libglewd.dll" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libglewd.dll")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -60,11 +60,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/lib/liblibglewmx_sharedd.dll.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/lib/liblibglewmx_sharedd.dll.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/cmake-build-debug/bin/libglewmxd.dll")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/cmake-build-debug/bin/libglewmxd.dll")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libglewmxd.dll" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libglewmxd.dll")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -75,10 +75,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/GL" TYPE FILE FILES
-    "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/glew/include/GL/eglew.h"
-    "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/glew/include/GL/glew.h"
-    "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/glew/include/GL/glxew.h"
-    "C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/glew/include/GL/wglew.h"
+    "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/lib/glew/include/GL/eglew.h"
+    "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/lib/glew/include/GL/glew.h"
+    "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/lib/glew/include/GL/glxew.h"
+    "C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/lib/glew/include/GL/wglew.h"
     )
 endif()
 

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/roudn/OneDrive/Documents/Cpp_projects/OpenGL_game/lib/glfw/tests
+# Install script for directory: C:/Users/roudn/OneDrive/Documents/Cpp_projects/TowerDefense/lib/glfw/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/opengl-cmake-skeleton")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OpenGL_game")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

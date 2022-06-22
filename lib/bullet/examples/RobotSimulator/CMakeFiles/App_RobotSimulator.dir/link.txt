@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\App_RobotSimulator.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\App_RobotSimulator.dir/objects.a @CMakeFiles\App_RobotSimulator.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\App_RobotSimulator.dir/objects.a -Wl,--no-whole-archive -o App_RobotSimulator.exe -Wl,--out-implib,libApp_RobotSimulator.dll.a -Wl,--major-image-version,3,--minor-image-version,24 @CMakeFiles\App_RobotSimulator.dir\linklibs.rsp
